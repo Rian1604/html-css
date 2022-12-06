@@ -1,3 +1,7 @@
 @charset "UTF-8";
 
 /* Configurações gerais */
+
+* {
+    font-family: Arial, Helvetica, sans-serif;
+}
