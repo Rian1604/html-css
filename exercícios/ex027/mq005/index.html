@@ -9,7 +9,7 @@
     <link rel="stylesheet" href="estilos/style.css">
     <link rel="stylesheet" href="estilos/media-query.css">
 </head>
-<body onresize="mudoutamanho()">
+<body onresize="mudouTamanho()">
     <header>
         <h1>Meu Site</h1>
         <span id=burguer class="material-symbols-outlined" onclick="clickMenu()">
@@ -36,7 +36,7 @@
         </article>
     </main>
     <script>
-        function mudoutamanho() {
+        function mudouTamanho() {
             if (window.innerWidth >= 768) {
                 itens.style.display = "block"
             } else {
